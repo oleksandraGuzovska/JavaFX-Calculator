@@ -86,6 +86,8 @@ public class MainGUI extends Application{
 		    }
 		});
 		
+		
+		//Recalculate based on new value
 		interestField.textProperty().addListener(new ChangeListener<String>() {
 		    @Override
 		    public void changed(ObservableValue<? extends String> observable,
@@ -99,6 +101,7 @@ public class MainGUI extends Application{
 		    }
 		});
 		
+		//Recalculate based on new value
 		yearsField.textProperty().addListener(new ChangeListener<String>() {
 		    @Override
 		    public void changed(ObservableValue<? extends String> observable,
@@ -112,6 +115,7 @@ public class MainGUI extends Application{
 		    }
 		});
 		
+		//Recalculate based on new value
 		frequencyField.valueProperty().addListener(new ChangeListener<String>() {
 		        @Override public void changed(ObservableValue<? extends String> observable,
 		        			String oldValue, String newValue) {
